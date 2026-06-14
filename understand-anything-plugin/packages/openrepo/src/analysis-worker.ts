@@ -17,7 +17,6 @@ import {
   type LLMFileAnalysis,
 } from "@understand-anything/core";
 import { createAgentClient, type OpenAICompatibleAgentClient } from "./agent-client.js";
-import { projectDir } from "./paths.js";
 import { OpenRepoStore } from "./store.js";
 import type { OpenRepoJob, OpenRepoProject } from "./types.js";
 
